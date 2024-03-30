@@ -1,0 +1,19 @@
+
+.first, .second, .third{
+    background-color: pink;
+    font-family:  Verdana, 'DejaVu Sans', sans-serif;
+}
+.second{
+    font-size: 24px;
+}
+
+#first{
+    color: blue;
+    font-size: 36px;
+}
+
+#second{
+    background-color: rgb(136, 187, 136);
+    font-size: 24px;
+    font-weight: 600;
+}
