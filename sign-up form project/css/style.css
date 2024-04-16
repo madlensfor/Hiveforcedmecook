@@ -31,8 +31,6 @@
     width: 600px;
     height: 800px;
     padding: 100px;
-    /* position: absolute;
-    left: 450px; */
     box-shadow: 1px 9px 10px 5px #8080807a;
   }
 
@@ -66,9 +64,6 @@ input{
 
 .hr-text {
     border: 0;
-    /* font-size: 14px;
-    height: 1.5em;
-    line-height: 1em; */
     position: relative;
     text-align: center;
     margin: 24px;
