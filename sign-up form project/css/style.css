@@ -21,13 +21,18 @@
     font-size: 20px;
   }
 
+  .im-flex-container{
+    display: flex;
+    justify-content: center;
+  }
+
   .container{
     background-color: white;
     width: 600px;
     height: 800px;
     padding: 100px;
-    position: absolute;
-    left: 450px;
+    /* position: absolute;
+    left: 450px; */
     box-shadow: 1px 9px 10px 5px #8080807a;
   }
 
