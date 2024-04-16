@@ -1,0 +1,80 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+body{
+    box-sizing: border-box;
+    background-image:url(../image/breathtaking-shot-starry-night-bolonia-beach-algeciras-cadiz-spain.jpg);
+    background-size:cover;
+}
+
+.box-main-container{
+    background-color: rgb(243, 247, 255);
+    width: 500px;
+    height: 300px;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 470px;
+}
+
+h4{
+    text-align: center;
+    font-weight: 800px;
+}
+
+label{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 4px 6px;
+    width: 400px;
+    height: 30px;
+    border: 2px solid rgb(209, 206, 206);
+    border-radius: 5px;
+}
+
+.email, .password{
+    margin: 15px 0px 15px 50px;
+}
+
+.button {
+    width: 400px;
+    padding: 10px;
+    margin: 20px 0px 0px 57px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: rgb(87, 126, 199);
+    color: beige;
+    font-size: 1rem;
+}
+
+button:hover {
+    color:aqua
+}
+
+.extra-message{
+    padding: 1rem;
+    text-align: center;
+}
+
+.fish{
+    font-size: 14px;
+    margin-left: 330px;
+}
+a{
+    color:rgb(39, 38, 38);
+    opacity: 60%;
+    text-decoration: none;
+}
