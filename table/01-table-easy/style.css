@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
+th, tfoot>tr>td {
+   background-color: rgb(230, 229, 229);
+   font-weight: 800; 
+   font-size: 15px; 
+   padding: 10px; 
+}

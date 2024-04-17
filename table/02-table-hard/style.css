@@ -1,0 +1,27 @@
+table {
+  background-color: #f6f6f6;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 20px;
+  text-align: left;
+}
+
+th {
+  background: rgb(42, 165, 136);
+  color: white;
+}
+
+.primary {
+  background-color: #000000;
+}
+
+tfoot > tr  {
+  background: black;
+  color: white;
+}
+
+tbody > tr:hover {
+  background-color: #b98ee6;
+}
