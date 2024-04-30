@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-template-areas: "navigation content";
+}
+
+
+.navigation {
+    width: 253px;
+    height: 100%;
+    max-height: 100vh;
+    overflow-y: scroll;
+    position: fixed;
+    
+}
+
+.navigation__header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: sticky;
+    top: 0px;
+    padding: 30px 0px 50px 28px;
+}
+
+.nbar__top {
+    margin: 40px 0px 100px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.nbar__top > li {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap: 15px;
+}
+
+.navbar__dashboard {
+    width: 215px;
+    height: 49px;
+}
+
+.navbar__pro__label {
+    width: 33px;
+    height: 18px;
+    border-radius: 38px;
+    padding: 4px 7px 2px 7px;
+    margin-left: 40px;
+}
+
+.navbar__profile__txt{
+    padding-left: 28px;
+}
+
+.nbar__bottom {
+    margin: 40px 0px 100px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.nbar__bottom > li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navigation__widget {
+    width: 195px;
+    height: 165px;
+    margin: 100px 0px 40px 28px;
+    padding: 15px;
+}
+
+.widget__btn {
+    width: 163px;
+    height: 35px;
+    margin: 10px 0px 20px 0px;
+}
+
+
+
+.main__content {
+    padding: 30px;
+    display: grid;
+    grid-area: content;
+}
+
+.main__header {
+    display: grid;
+    grid-template-columns: 900px 300px;
+    padding-bottom: 50px;
+}
+
+.search__input {
+    width: 500px;
+}
+
+.main__search__bar {
+    height: 40px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.search__container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.main__user__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__user__content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main__user__info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.main__section__first__header {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    gap: 320px;
+    padding: 20px;
+}
+
+.section__first__navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.main__section__layout {
+    display: grid;
+    grid-template-columns: 850px 1fr;
+    grid-template-rows: 430px 1fr;
+    gap: 20px 26px;
+    padding-bottom: 40px;
+}
+
+.aside__content {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.main__dashboard {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dashboard__first__card {
+    position: relative;
+    width: 252px;
+    height: 329px;
+    padding: 7px;
+}
+
+.dashboard__icon {
+    position: absolute;
+    margin: 10px 0px 0px 200px;
+    background: #ffffff2c;
+    width: 29px;
+    height: 29px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard__second__card {
+    position: relative;
+    width: 252px;
+    height: 329px;
+    padding: 7px;
+}
+
+.dashboard__third__card {
+    position: relative;
+    width: 252px;
+    height: 329px;
+    padding: 7px;
+}
+
+.main__second__section {
+    display: flex;
+    align-items: center;
+    gap: 500px;
+    padding: 0px 0px 20px 20px;
+}
+
+.top__nft__table {
+    width: 830px;
+    height: 300px;
+    margin-left: 10px;
+}
