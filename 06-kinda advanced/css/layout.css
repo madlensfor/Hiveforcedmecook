@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+}
+
+/* YO WASSUP HERE WE START WITH INTRO */
+
+.introduction-section {
+    background-image: url(../assets/header/bg-mountains.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.introduction-section__container {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.introduction-section__navigation-layout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.introduction-section__navigation-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+
+.introduction-section__navbar-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.introduction-section__main-container {
+    padding: 420px 0px 100px;
+}
+
+.introduction-section__title {
+    padding: 0px 0px 60px;
+}
+
+.introduction-section__search-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* KEEP GOING WITH SECOND SECTION */
+
+.mountain-exploration-section__container {
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px 250px;
+}
+
+.mountain-exploration-section__media {
+    position: relative;
+}
+
+.__media-first-card {
+    width: 350px;
+    height: 400px;
+    background-image: url(../assets/section-2/Rectangle\ 5.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.__media-second-card {
+    width: 350px;
+    height: 400px;
+    background-image: url(../assets/section-2/Rectangle\ 4.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mountain-exploration-section__text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* PRETTY OBVIOUS BUT YEAH ITS THIRD SECTION */
+
+.best-offer-section__container {
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 100px 0px 100px;
+}
+
+.best-offer-section__text-container {
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.best-offer-section__benefit-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.best-offer-section__benefit-list {
+    display: flex;
+    gap: 10px;
+}
+
+.best-offer-section__photo-container {
+    max-width: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+/* ANOTHER SECTION THANK YOU */
+
+.popular-choice-section {
+    padding: 100px 0px 100px;
+}
+
+.popular-choice-section__container {
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.popular-choice-section__card-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 15px 0px 15px;
+}
+
+.popular-choice-section__rating-label {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 40px 0px 0px 320px;
+}
+
+.popular-choice-section__card-1 {
+    width: 380px;
+    height: 500px;
+    background-image: url(../assets/section-4/фоновое\ изображение.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.popular-choice-section__card-2 {
+    width: 380px;
+    height: 500px;
+    background-image: url(../assets/section-4/фоновое\ изображение\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+.popular-choice-section__card-3 {
+    width: 380px;
+    height: 500px;
+    background-image: url(../assets/section-4/фоновое\ изображение\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* GUESS WHAT? YEP! FIFTH SECTION */
+
+.review-section__container {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 50px 0px 50px;
+}
+
+.review-section__caption,
+.review-section__title {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.review-section__card-layout {
+    max-width: 1200px;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin: 15px 0px 30px;
+}
+
+.review-section__card-container {
+    min-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.review-section__description {
+    padding: 15px 0px 10px 10px;
+}
+
+.review-section__date-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 0px 10px;
+}
+
+#review-section__date-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 0px 0px 10px;
+}
+
+.review-section__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+/* THANK GOD IT`S LAST SECTION */
+
+.photo-review-section {
+    padding: 100px 0px 90px;
+}
+
+.photo-review-section__container {
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.photo-review-section__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+
+/* THAT WAS A JOKE AND THIS IS A SEVENTH SECTION */
+
+.newsletter-section {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.newsletter-section__outstanding-container {
+    position: relative;
+    z-index: 1;
+    bottom: -90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 0px 50px;
+}
+
+.newsletter-section__first-column {
+    max-width: 408px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.newsletter-section__subscription {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.newsletter-section__input-container {
+    min-width: 280px;
+}
+
+.newsletter-section__email-input {
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    background-color: var(--odd-section-bg-clr);
+    border-radius: 5px;
+}
+
+/* AND HERE WE WRAP IT UP WITH FOOTER YEEEEY */
+
+.footer-section {
+    padding: 200px 0px 100px;
+}
+
+.footer-section__container {
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section__company-info {
+    max-width: 473px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer-section__company-description__container,
+.footer-section__company-service__container,
+.footer-section__company-recomendation__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-section__company-contacts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer-section__company-contacts,
+.footer-section__company-social-media {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-section__company-service-list,
+.footer-section__company-rec-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

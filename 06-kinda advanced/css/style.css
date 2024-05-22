@@ -1,0 +1,431 @@
+@import url(./reset.css);
+@import url(./layout.css);
+@import url(./media.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'Next art';
+    src: url(../nextart/NEXT\ ART_Regular.otf);
+    src: url(../nextart/NEXT\ ART_Bold.otf);
+}
+
+* body {
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 1;
+}
+
+:root {
+--white-txt-clr: #FDFDFD;
+--black-txt-clr: #18121E;
+--yellow-clr: #F2BE22;
+--bttn-green-clr: #1A3E3E;
+--bttn-white-clr: #FDFDFD;
+--odd-section-bg-clr: #F3F5F4;
+--footer-bg-clr: #1A3E3E;
+--transparent-container: #ffffff20;
+--font-sz-title: 3.5rem;
+--font-sz-caption: 1.5rem;
+--font-sz-headings: 2.3rem;
+--font-sz-s-headings: 1.8rem;
+--font-sz-descrptn: 1.3rem;
+--font-sz-s-descrptn: 1rem;
+--font-sz-bttn: 1.2rem;
+--font-sz-link: 1rem;
+}
+
+
+
+/* FIRST SECTION WOW */
+
+.introduction-section__title {
+    font-family: 'next art';
+    font-size: var(--font-sz-title);
+    font-weight: 700;
+    color: var(--white-txt-clr);
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+
+.introduction-section__search-container {
+    background-color: var(--transparent-container);
+    border-radius: 10px;
+    padding: 40px 0px 40px;
+}
+
+.introduction-section__select-container {
+    width: 270px;
+}
+
+#select-location,
+#select-amount-of-participants {
+    font-size: var(--font-sz-bttn);
+    background-color: inherit;
+    padding: 13px;
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    color: var(--white-txt-clr);
+    font-weight: 700;
+}
+
+.select-option {
+    color: var(--bttn-green-clr);
+}
+
+.introduction-section__input-container {
+    width: 270px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+}
+
+#input-date {
+    font-size: var(--font-sz-bttn);
+    background-color: inherit;
+    padding: 10px;
+    color: var(--white-txt-clr);
+    font-weight: 700;
+}
+
+.introduction-section__search-box-p {
+    color: var(--white-txt-clr);
+    padding: 8px 0px 0px 12px;
+}
+
+/* menu icon  */
+
+.introduction-section__menu-icon {
+    position: relative;
+    list-style: none;
+  }
+  
+  
+.dropdown .submenu {
+    visibility: hidden;
+    position: absolute;
+    right: -30%;
+    background-color: var(--bttn-green-clr);
+    border-radius: 8px 0px 0px 8px;
+    overflow: hidden;
+  }
+
+.submenu {
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+.dropdown:hover .submenu {
+    visibility: visible;
+  }
+  
+
+/* THIRD SECTION */
+
+.best-offer-section {
+    background-color: var(--odd-section-bg-clr);
+}
+
+.best-offer-section__benefit-list__icon-container1 {
+    background-color: #E5EEEB;
+    padding: 10px 12px 1px 12px;
+    border-radius: 5px;
+}
+
+.best-offer-section__benefit-list__icon-container2 {
+    background-color: #E3E6EE;
+    padding: 10px 12px 0px 12px;
+    border-radius: 5px;
+}
+
+.best-offer-section__benefit-list__icon-container3 {
+    background-color: #F3F1E1;
+    padding: 10px 12px 0px 12px;
+    border-radius: 5px;
+}
+
+/* FOURTH SECTION */
+
+.popular-choice-section__rating-label {
+    background-color: #fdfdfd6f;
+    padding: 0px 8px 0px;
+    border-radius: 5px 0px 0px 5px;
+    font-weight: 700;
+}
+
+.popular-choice-section__card-1,
+.popular-choice-section__card-2,
+.popular-choice-section__card-3 {
+    position: relative;
+    overflow: hidden;
+}
+
+.popular-choice-section__iam-about-to-cry {
+    width: 380px;
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(80%);
+    padding: 40px 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: var(--white-txt-clr);
+    border-radius: 30px;
+    visibility: visible;
+    transition: all 2.2s ease;
+    backdrop-filter: blur(6px);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.popular-choice-section__iam-about-to-cry:hover {
+    transform: translateX(-50%) translateY(0);
+    visibility: visible;
+}
+
+.text1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.popular-choice-section__overlay-title {
+    font-size: var(--font-sz-s-headings);
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.popular-choice-section__overlay-price {
+    padding: 10px 17px 10px 17px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #ffffff5a;
+    border-radius: 5px;
+}
+
+.popular-choice-section__overlay-description {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.popular-choice-section__crying-bttn {
+    align-self: flex-start;
+    width: 175px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: var(--bttn-green-clr);
+    color: var(--bttn-white-clr);
+    font-size: var(--font-sz-bttn);
+    font-weight: 700;
+}
+
+/* FIFTH SECTION */
+
+.review-section {
+    background-color: var(--odd-section-bg-clr);
+}
+
+.review-section__card-container {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.review-section__heading {
+    font-size: var(--font-sz-s-headings);
+    font-weight: 700;
+    padding: 15px 0px 20px 10px;
+}
+
+.review-section__date {
+    color: var(--yellow-clr);
+    font-size: var(--font-sz-link);
+    font-weight: 700;
+}
+
+/* NEWSLETTER */
+
+.newsletter-section__outstanding-container {
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 6px rgba(87,84,87,0.59);
+    background-color: #FFFFFF;
+}
+
+.newsletter-section__email-label {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* FOOTER */
+
+.footer-section {
+    background-color: var(--footer-bg-clr);
+    color: var(--white-txt-clr);
+}
+
+/* SECTION`S CAPTIONS HEADINGS DESCRIPTIONS */
+
+.mountain-exploration-section__caption,
+.best-offer-section__caption,
+.popular-choice-section__caption,
+.review-section__caption,
+.photo-review-section__caption,
+.newsletter-section__caption {
+    font-size: var(--font-sz-caption);
+    color: var(--yellow-clr);
+    font-size: 700;
+}
+
+.mountain-exploration-section__title,
+.best-offer-section__title,
+.popular-choice-section__title,
+.review-section__title,
+.photo-review-section__title,
+.newsletter-section__title {
+    font-size: var(--font-sz-headings);
+    font-weight: 700;
+}
+
+.best-offer-section__benefit-list__title,
+.footer-section__company-name,
+.footer-section__company-service,
+.footer-section__company-recomendation {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.mountain-exploration-section__description,
+.best-offer-section__description {
+    font-size: var(--font-sz-descrptn);
+    line-height: 1.5;
+}
+
+.best-offer-section__benefit-list__description,
+.review-section__description,
+.footer-section__company-description {
+    font-size: var(--font-sz-s-descrptn);
+    line-height: 1.5;
+}
+
+/* LINKS */
+
+.introduction-section__link {
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.introduction-section__link:hover {
+    color: var(--yellow-clr);
+}
+
+.review-section__link {
+    color: #1A3E3E;
+    font-size: var(--font-sz-link);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.review-section__link:visited {
+    color: #1A3E3E;
+}
+
+.review-section__link:hover {
+    color: #1A3E3E;
+    text-decoration: underline;
+}
+
+#newsletter-section__link {
+    color: var(--black-txt-clr);
+}
+
+#newsletter-section__link:visited {
+    color: var(--black-txt-clr);
+}
+
+.footer-section__link {
+    font-size: var(--font-sz-link);
+    text-decoration: none;
+}
+
+.footer-section__link:hover {
+    color: var(--yellow-clr);
+    text-decoration: underline;
+}
+
+.footer-section__link0 {
+    font-size: var(--font-sz-link);
+    text-decoration: underline;
+}
+
+.footer-section__link0:hover {
+    color: var(--yellow-clr);
+}
+
+/* BUTTONS */
+
+.introduction-section__consult-button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--bttn-green-clr);
+    color: var(--bttn-white-clr);
+    font-weight: 700;
+}
+
+#mountain-exploration-section__play-bttn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: transform .2s linear;
+}
+
+#mountain-exploration-section__play-bttn:hover {
+    transform: scale(1.1);
+}
+
+.mountain-exploration-section__button,
+.best-offer-section__button,
+.popular-choice-section__button,
+.review-section__button,
+.photo-review-section__button,
+.newsletter-section__subscribe-button {
+    width: 240px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: var(--bttn-green-clr);
+    color: var(--bttn-white-clr);
+    font-size: var(--font-sz-bttn);
+    font-weight: 700;
+}
+
+button:hover {
+    background-color:var(--bttn-white-clr);
+    color: var(--bttn-green-clr);
+    border: 1px solid var(--bttn-green-clr);
+}
+
+#introduction-section__search-button {
+    width: 210px;
+    height: 50px;
+    border-radius: 5px;
+    align-self: flex-start;
+    background-color: var(--bttn-white-clr);
+    color: var(--bttn-green-clr);
+    font-size: var(--font-sz-bttn);
+    font-weight: 700;
+}
+
+#introduction-section__search-button:hover {
+    background-color:var(--bttn-green-clr);
+    color: var(--bttn-white-clr);
+    border: 1px solid var(--bttn-white-clr);
+}

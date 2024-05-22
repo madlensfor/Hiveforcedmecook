@@ -1,0 +1,90 @@
+@media (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+}
+ 
+/* im really sorry for this mess */
+
+
+@media screen and (max-width: 1100px) {
+
+    .introduction-section__container,
+    .review-section__container {
+        padding: 20px;
+    }
+
+    .best-offer-section__container {
+        padding: 50px 20px 40px 50px;
+    }
+    .mountain-exploration-section__media,
+    .best-offer-section__photo-container {
+        display: none;
+    }
+
+    .mountain-exploration-section__container,
+    .best-offer-section__container {
+        justify-content: center;
+    } 
+
+    .newsletter-section__outstanding-container {
+        display: block;
+        padding-left: 40px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .footer-section__container {
+        flex-direction: column;
+        gap: 4rem;
+        padding: 20px 20px 0px 40px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .photo-review-section__container {
+        max-width: 600px;
+        overflow-y: auto;
+    }
+
+    .popular-choice-section__card-box {
+        height: 500px;
+        overflow-x: scroll;
+    }
+
+}
+
+@media (max-width: 810px) {
+    .introduction-section__title {
+        font-size: 0.7rem;
+    }
+    .introduction-section__navbar-links,
+    .introduction-section__consult-button {
+        display: none;
+    }
+
+    .introduction-section__main-container {
+        padding: 300px 0px 80px;
+    }
+}
+
+@media (min-width: 810px) {
+    .introduction-section__menu-icon {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .review-section__card-layout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+        overflow-x: scroll;
+    }
+    .review-section__card-container {
+        width: 230px;
+        justify-content: center;
+    }
+}
