@@ -213,7 +213,7 @@
 }
 
 .review-section__card-container {
-    min-width: 300px;
+    min-width: 240px;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
