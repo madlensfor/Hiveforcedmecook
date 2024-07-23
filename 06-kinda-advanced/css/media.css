@@ -42,7 +42,7 @@
 
 @media (max-width: 810px) {
     .introduction-section__title {
-        font-size: 0.7rem;
+        font-size: 2.9rem !important;
     }
     .introduction-section__navbar-links,
     .introduction-section__consult-button {
