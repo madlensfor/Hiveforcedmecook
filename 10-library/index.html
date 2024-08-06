@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="lib-section">
+        <div class="h__align">
+            <h1 class="h__descr">urlibrary</h1>
+            <button data-modal class="add-book btn" type="button">Add book</button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="book-alignment">
+            <!-- <div class="main__book-card">
+                <div class="main__book-content">
+                    <p class="book-title">Title: The Great Gatsby</p>
+                    <p class="book-author">Author: F. Scott Fitzgerald</p>
+                    <p class="book-pages">Pages: 218</p>
+                    <button id="check-stat" class="book-card-btn btn">Read</button>
+                    <button id="remove" class="book-card-btn btn">Remove</button>
+                </div>
+            </div> -->
+        </div>
+    </main>
+
+    <div class="modal-switch">
+        <div class="modal__content">
+            <form class="modal__add-book" action="#">
+                <div class="modal__align-h">
+                    <div data-close class="modal__close">&times;</div>
+                    <div class="modal__title">Add new book</div>
+                </div>
+                <input placeholder="Title" name="title" type="text" class="modal__input  input-title" required maxlength="100">
+                <input placeholder="Author" name="author" type="text" class="modal__input input-author" required maxlength="100">
+                <input placeholder="Pages" name="pages" type="number" class="modal__input input-pages" required max="10000">
+                <label>
+                    <input type="checkbox" name="read">
+                    Already Read
+                </label>
+                <button class="modal__submit-btn btn" type="submit">Submit</button>
+            </form>
+        </div> 
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
