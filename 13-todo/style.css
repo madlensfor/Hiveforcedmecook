@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+    font-size: 14px;
+}
+
+button,
+input {
+  cursor: pointer;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+    background-color: #f2f1ff;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* HEADER  */
+.header-box {
+    padding: 20px;
+    background-color: rgba(124, 89, 157, 0.777);
+    box-shadow: 0 4px 8px rgba(81, 59, 101, 0.386);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 3rem;
+    color: rgb(236, 216, 255);
+    font-weight: 500;
+    padding-left: 50px;
+}
+
+.add-btn {
+    margin-right: 100px;
+    background-color: rgba(124, 89, 157, 0);
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(236, 216, 255);
+}
+
+.add-btn:hover {
+    color: rgb(132, 0, 255);
+}
+
+
+/* TASK-LIST  */
+#task-list {
+    margin: 40px 90px;
+}
+
+.task-item {
+    padding: 15px 35px;
+    border-radius: 10px;
+    background-color: rgba(103, 89, 157, 0.17);
+    margin-top: 25px;
+    color: rgb(125, 111, 138);
+    position: relative;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.checkbox {
+    position: absolute;
+    zoom: 1.7;
+    top: 35px;
+    right: 80px;
+}
+
+.remove {
+    position: absolute;
+    top: 58px;
+    right: 40px;
+}
+
+/* MODAL */
+.modal-switch {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s;
+}
+
+.modal-switch.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal__content {
+    background-color: #eae9ff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.modal__align-h {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.modal__close {
+    cursor: pointer;
+    font-size: 24px;
+    color: rgb(133, 2, 255);
+}
+
+.modal__close:hover {
+    color: rgb(208, 157, 255);
+}
+
+.modal-input-align {
+    display: flex;
+    gap: 30px;
+}
+
+.title__input,
+.textarea__input {
+    outline: none;
+    padding: 10px;
+    margin: 10px 0;
+    width: 450px;
+    border-radius: 15px;
+}
+
+.modal__input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.modal__submit-btn {
+    display: block;
+    width: 500px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(124, 89, 157, 0.777);
+    color: rgb(236, 216, 255);
+}
